@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood of the Crown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blood of the Crown</h1>
+    </header>
+
+    <main>
+        <section class="chapter-upload">
+            <h2>Upload Chapter</h2>
+            <input type="password" id="upload-password" placeholder="Enter password">
+            <input type="file" id="chapter-upload" accept=".pdf">
+            <button onclick="uploadChapter()">Upload Chapter</button>
+        </section>
+
+        <section id="chapters-list">
+            <h2>Chapters</h2>
+            <ul id="chapter-links"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
